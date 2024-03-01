@@ -1,0 +1,20 @@
+{
+    "folders": [
+        {
+            "name": "openshift-test",
+            "path": "/projects/openshift-test"
+        }
+    ],
+    "settings": {
+        "editor.cursorBlinking": "expand",
+        "editor.cursorStyle": "block",
+        "workbench.colorTheme": "Kimbie Dark",
+        "workbench.iconTheme": "dot"
+    },
+    "extensions": {
+        "recommendations": [
+            "redhat.vscode-yaml",
+            "anweber.dot-icons"
+        ]
+    }
+}
