@@ -1,20 +1,20 @@
 {
-    "folders": [
-        {
-            "name": "openshift-test",
-            "path": "."
-        }
-    ],
-    "settings": {
-        "editor.cursorBlinking": "expand",
-        "editor.cursorStyle": "block",
-        "workbench.colorTheme": "Kimbie Dark",
-        "workbench.iconTheme": "dot"
-    },
-    "extensions": {
-        "recommendations": [
-            "redhat.vscode-yaml",
-            "anweber.dot-icons"
-        ]
-    }
+	"folders": [
+		{
+			"name": "dev-spaces-test",
+			"path": "/projects/dev-spaces-test"
+		}
+	],
+	"settings": {
+		"editor.cursorBlinking": "expand",
+		"editor.cursorStyle": "block",
+		"workbench.colorTheme": "Kimbie Dark",
+		"workbench.iconTheme": "dot"
+	},
+	"extensions": {
+		"recommendations": [
+			"redhat.vscode-yaml",
+			"anweber.dot-icons"
+		]
+	}
 }
