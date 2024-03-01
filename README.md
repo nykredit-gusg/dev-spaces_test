@@ -2,7 +2,7 @@
 ```yaml
 schemaVersion: 2.1.0
 metadata:
-  name: openshift_test
+  name: openshift_test_case_0
 components:
   - name: python
     container:
