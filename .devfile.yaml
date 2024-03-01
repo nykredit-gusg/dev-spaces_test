@@ -5,19 +5,3 @@ components:
   - name: python
     container:
       image: registry.redhat.io/devspaces/udi-rhel8
-commands:
-  - id: create-environment
-    exec:
-      component: python
-      workingDir: ${PROJECT_SOURCE}
-      commandLine:
-        if [ ! -d .venv ]
-        then
-          python3.11 -m venv .venv
-          pip install --upgrade pip
-        fi
-        if [ -f requirements.txt ]
-        then
-          source .venv/bin/activate
-          pip install -r requirements.txt
-        fi
