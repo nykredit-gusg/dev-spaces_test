@@ -7,7 +7,4 @@ components:
   - name: tools
     container:
       image: registry.redhat.io/devspaces/udi-rhel8
-      env:
-        - name: VSCODE_DEFAULT_WORKSPACE
-          value: /projects/dev-spaces-test/custom-workspace-file
 ```
